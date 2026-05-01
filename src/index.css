@@ -1,0 +1,72 @@
+:root {
+  --paper: #f4efe4;
+  --paper-strong: #fffaf2;
+  --ink: #1b262c;
+  --ink-soft: #5c604f;
+  --line: rgba(104, 95, 77, 0.18);
+  --heading-font: 'Aptos Display', 'Trebuchet MS', sans-serif;
+  --body-font: 'Aptos', 'Segoe UI', sans-serif;
+  font-family: var(--body-font);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(214, 167, 74, 0.18), transparent 20%),
+    radial-gradient(circle at right center, rgba(15, 76, 92, 0.12), transparent 22%),
+    linear-gradient(180deg, #f8f3eb, #efe6d5);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100vh;
+  padding: 32px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 10px;
+  font-family: var(--heading-font);
+  line-height: 1.08;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+}
+
+p {
+  color: var(--ink-soft);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 18px;
+  }
+}
