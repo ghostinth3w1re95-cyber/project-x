@@ -59,7 +59,7 @@ npm install
 ```bash
 npm run dev
 ```
-Sovellus käynnistyy osoitteeseen http://localhost:5173
+Sovellus käynnistyy osoitteeseen http://localhost.xxxx
 
 ### Tuotantobuild
 ```bash
