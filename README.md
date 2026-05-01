@@ -115,6 +115,6 @@ src/
 
 ---
 
-**Tekijä:** [Nimi]
-**Päivämäärä:** 2026
-**Kurssi:** Frontend-kehitäjä
+**Tekijä:** [Maxim]
+**Päivämäärä:** 1.5.2026
+**Kurssi:** Frontend-ohjelmointi
